@@ -17,7 +17,7 @@ void readTemperature() {
   // 화씨 온도로 변환
   float temp_F = (temp_C * 9.0/5.0) + 32;
   Serial.print(temp_F);
-  Serial.print(" F");
+  Serial.println(" F");
 }
 
 void readIlluminance() {
