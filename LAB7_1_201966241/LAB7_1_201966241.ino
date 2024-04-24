@@ -1,7 +1,7 @@
 #include <pitches.h>
 // 음정에 해당하는 주파수를 매크로로 설정.
 
-int speakerPin = 57;  // 스피커 연결 핀
+int speakerPin = 3;  // 스피커 연결 핀
 int melody[] = {  // 학교 종 멜로디, 0은 쉼표
   NOTE_G4, NOTE_G4, NOTE_A4, NOTE_A4, NOTE_G4, NOTE_G4, NOTE_E4, 0,
   NOTE_G4, NOTE_G4, NOTE_E4, NOTE_E4, NOTE_D4, 0,
